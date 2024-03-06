@@ -1,11 +1,10 @@
 name: 'Initial Setup'
 
-on: [ create ]
+on: [ create, workflow_dispatch ]
 
 permissions:
   issues: write
   contents: read
-  labels: write
 
 jobs:
   initialize_repo:
